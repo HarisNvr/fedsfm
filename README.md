@@ -1,6 +1,6 @@
 # Fedsfm Postman Collection
 
-Этот README описывает Postman коллекцию для работы с API сайта [fedsfm.ru](https://www.fedsfm.ru/TerroristSearch). Данная коллекция выполняет запросы на поиск организаций и граждан, потенциально связанных с террористической деятельностью. Все запросы используют метод `POST` и формат `JSON` в теле запроса.
+Этот README описывает Postman коллекцию для работы с API сайта [fedsfm.ru]([https://www.fedsfm.ru/TerroristSearch](https://www.fedsfm.ru/documents/terr-list)). Данная коллекция выполняет запросы на поиск организаций и граждан, потенциально связанных с террористической деятельностью. Все запросы используют метод `POST` и формат `JSON` в теле запроса.
 
 Все запросы делаются на адрес: https://www.fedsfm.ru/TerroristSearch
 
