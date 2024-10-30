@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "89cbeb5e-6b25-401f-9666-9cea0ad9f91b",
+		"name": "fedsfm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33874469"
+	},
+	"item": [
+		{
+			"name": "\"Зелёная\" организация",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"rowIndex\":0,\r\n\"pageLength\":50,\r\n\"searchText\":\"ООО СЛОВОСОФТ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.fedsfm.ru/TerroristSearch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fedsfm",
+						"ru"
+					],
+					"path": [
+						"TerroristSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Пустой запрос \" \"",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"rowIndex\":0,\r\n\"pageLength\":50,\r\n\"searchText\":\" \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.fedsfm.ru/TerroristSearch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fedsfm",
+						"ru"
+					],
+					"path": [
+						"TerroristSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Пустой запрос \"\"",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"rowIndex\":0,\r\n\"pageLength\":50,\r\n\"searchText\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.fedsfm.ru/TerroristSearch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fedsfm",
+						"ru"
+					],
+					"path": [
+						"TerroristSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"Красная\" организация",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"rowIndex\":0,\r\n\"pageLength\":50,\r\n\"searchText\":\"РЕЛИГИОЗНАЯ ОРГАНИЗАЦИЯ МУЖСКАЯ ДУХОВНАЯ СЕМИНАРИЯ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.fedsfm.ru/TerroristSearch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fedsfm",
+						"ru"
+					],
+					"path": [
+						"TerroristSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Граждане по фамилии",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"rowIndex\":0,\r\n\"pageLength\":50,\r\n\"searchText\":\"Путин\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.fedsfm.ru/TerroristSearch",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fedsfm",
+						"ru"
+					],
+					"path": [
+						"TerroristSearch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
